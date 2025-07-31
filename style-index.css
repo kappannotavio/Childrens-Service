@@ -1,0 +1,100 @@
+section {
+    margin-top: 84px;
+    padding: 0 121px;
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 8;
+}
+
+.cardsTodos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 451px;
+    max-height: 393px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #9E9E9E;
+    border-width: 2px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    color: #9B32EB;
+    margin: 0px;
+    padding: 6px;
+}
+
+.descServicos {
+    font-weight: bold;
+    font-size: 16px;
+    color: #666666;
+    text-align: left;
+    padding: 0 18px;
+    margin: 0;
+}
+
+.saibaMais {
+    color: #0C51FF;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-top: 33px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.avaliadores {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    padding-bottom: 84px;
+}
+
+.pessoaAvaliadaH {
+    background-color: #596468;
+    display: flex;
+    align-items: center;
+    width: 801px;
+    height: 367px;
+    border-radius: 20px;
+    gap: 22px;
+    padding-left: 9px;
+}
+
+.pessoaAvaliadaM {
+    background-color: #A49191;
+    display: flex;
+    align-items: center;
+    width: 801px;
+    height: 367px;
+    border-radius: 20px;
+    gap: 22px;
+    padding-left: 9px;
+}
+
+.textoAvaliacao h3 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.textoAvaliacao p {
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    padding-right: 66px;
+    margin: 0;
+}

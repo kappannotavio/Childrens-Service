@@ -1,0 +1,75 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 3.9375rem;
+    margin-left: 7.56rem;
+    margin-right: 7.56rem;
+}
+
+main h1 {
+    font-size: 3.75rem;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+
+main h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #666666;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+}
+
+.parte {
+    margin-top: 3.9375rem;
+}
+
+.textos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeriaText {
+    color: #000000;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.verTudoText {
+    color: #5885F8;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagemIndividual {
+    height: auto;
+    max-width: 308px;
+}
+
+.videoIndividual {
+    height: auto;
+    max-width: 488px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #FF9538;
+    border-radius: 46px;
+    padding: 31px 138px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 11.6875rem;
+    margin-bottom: 8.625rem;
+}

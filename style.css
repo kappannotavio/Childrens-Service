@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7.56rem;
+  height: 7.75rem;
+}
+
+.logo {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2p1.875rem;
+    border-radius: .75rem;
+}
+
+#itens {
+  display: flex;
+  gap: 19rem;
+}
+
+#itens a {
+  font-size: 1.875rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header img {
+  max-height: 100p1.875rem;
+  height: auto;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7.56rem;
+  height: 154p1.875rem;
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+}
+
+.contatos {
+    font-size: 24p1.875rem;
+    display: flex;
+    gap: 30px;
+}
